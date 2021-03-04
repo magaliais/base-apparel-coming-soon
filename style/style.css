@@ -132,6 +132,8 @@ main form button {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 100px 1fr;
+
+    background-image: url("../public/bg-pattern-desktop.svg");
   }
 
   header {
