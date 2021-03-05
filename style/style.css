@@ -190,10 +190,10 @@ main form button {
 
   main form button {
     padding: 0 2.5rem;
+    transition: transform 0.2s;
   }
 
   main form button:hover {
-    transition: transform 0.2s;
     transform: scale(1.1, 1.1);
     cursor: pointer;
 
