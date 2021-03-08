@@ -134,6 +134,8 @@ main form button {
     grid-template-rows: 100px 1fr;
 
     background-image: url("../public/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   header {

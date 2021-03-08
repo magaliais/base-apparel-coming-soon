@@ -37,8 +37,8 @@
       Add your email below to stay up-to-date with announcements and our launch deals.
     </p>
 
-    <form action="">
-      <input type="email" placeholder="Email Address" required>
+    <form action="submit">
+      <input type="email" placeholder="Email Address" required oninvalid="this.setCustomValidity('Please provide a valid email')">
       <button><img src="./public/icon-arrow.svg" alt=""> </button>
     </form>
 
